@@ -1,0 +1,10 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+	height: 600px;
+	width: 600px;
+}

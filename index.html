@@ -1,0 +1,42 @@
+<html>
+	<head>
+
+		<title> Where was it stolen? </title>
+		<!-- linking the CSS stylesheet-->
+		<link rel="stylesheet" href="index.css">
+
+	</head>
+	<body>
+		<h1>Data:</h1>
+
+		<table id="demo">
+			<tr>
+				<th>Time</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+			</tr>
+		</table>
+
+		<hr />
+
+		<div id="map"></div>
+
+		<!-- Loading Google Maps API -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7tACCPzy_BI_dcuEllxxUp-6rcKae1HM&callback=initMap"
+    async defer></script>
+
+		<!-- Our own JS file-->
+<!-- 		<script type="text/javascript" src="index.js"></script>
+ -->		
+		<!-- JQuery CDN -->
+		<script
+  		src="https://code.jquery.com/jquery-3.2.1.min.js"
+  		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  		crossorigin="anonymous">
+  		</script>
+
+		<!-- Our JS file with JQuery -->
+		<script type="text/javascript" src="indexjq.js"></script>
+
+	</body>
+</html>
